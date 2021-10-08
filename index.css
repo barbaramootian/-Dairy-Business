@@ -1,4 +1,39 @@
 body{
-    background-image: url("images/dairy.jpg");
+    background-image: url("images/dairy.png");
     background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background: rgb(17, 13, 13);   
+} 
+
+.column{
+width: 80%;
+}
+h1{
+   display: flex; 
+   color: rgba(240, 245, 240, 0.945);
+  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+nav .column ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 350px;
+   
+    
+}
+nav .column ul li a {
+    color:  rgba(240, 245, 240, 0.945);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
