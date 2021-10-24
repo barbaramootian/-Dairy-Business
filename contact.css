@@ -1,5 +1,5 @@
 body{
-    background-color: #F8F5E4;
+    background-color: #D0C7F3;
 }
 h1{
     text-align: center;
@@ -26,4 +26,21 @@ input{
 .column img{
    transform: translate(10px, 10px);
    display: flex;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: #A15F9C;
+    }
+    nav .column ul li {
+        display: inline-flex;
+        list-style: none;
+        /* justify-content: space-between; */
+        text-transform: uppercase;
+        
+    }
+    nav .column ul li a {
+        color:  rgba(240, 245, 240, 0.945);
+        text-decoration: none;
+        text-transform: uppercase;
     }

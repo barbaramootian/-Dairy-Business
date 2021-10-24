@@ -8,32 +8,48 @@
     <link rel="stylesheet" href="product.css">
 </head>
 <body>
-    <form id="form">
-        <fieldset>
-        <legend>The products:</legend>
-        <label for="Shed"> Product in shed A</label>
-        <input type="text" id="shedA"><br>
-        <label for="Shed">Product in shed B</label>
-        <input type="text" id="shedB" ><br>
-        <label for="shed">Product in shed C:</label>
-        <input type="text" id="shedC"><br>
-        <label for="Shed">Product in shed D:</label>
-        <input type="text" id="shedD"><br>
-        <!-- <label for="Shed">Total Amount:</label>
-        <input type="text" id="Total"><br> -->
-        <label for="litre">Amount of milk per litre</label>
-        <input list="buy a litre for" id="litre" name="litre"/>
-        <datalist id="buy a litre for">
-            <option value="45">
-            <option value="49.60">
-        </datalist>
-        <input type="submit" value="Find Total">
-        </fieldset>
-    </form>
-    <form id=" months">
-
-
-    </form>
+    <div class="nav-bar">
+        <nav>
+           <div class="column">
+              <ul>
+                 <li><a #Home>Home</a></li>
+                 <li><a #Product.html>Products</a></li>
+                 <li><a #Contact.html>Contact Us</a></li>
+             </ul>
+           </div> 
+         </nav>
+        </div>
+    <div class="content">
+        <div>
+            <form id="form">
+                <fieldset>
+                    <legend>The products:</legend>
+                    <label for="Shed"> Product in shed A</label>
+                        <input type="text" id="shedA"><br>
+                    <label for="Shed">Product in shed B</label>
+                        <input type="text" id="shedB" ><br>
+                    <label for="shed">Product in shed C:</label>
+                        <input type="text" id="shedC"><br>
+                    <label for="Shed">Product in shed D:</label>
+                        <input type="text" id="shedD"><br>
+                    <label for="litre">Amount of milk per litre</label>
+                         <input list="price" id="litre" name="litre"/>
+                    <datalist id="price">
+                        <option value="45">
+                        <option value="49.60">
+                    </datalist>
+                    <input type="submit" value="Find Total">
+                </fieldset>
+           </form>
+        </div>
+                <div class="sum">
+                    <h1>Calculations for the farm</h1>
+                    <h2 id="output"></h2>
+                    <h3 id="totalMoney"></h3>  
+                    <h4 id="monthlyAmount"></h4>
+                    <h5 id="yearAmount"></h5>
+                </div>
+    </div>
 </body>
 <script type="text/javascript" src="index.js"></script>
 </html>

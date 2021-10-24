@@ -3,3 +3,35 @@ form{
     width: 300px;
     font-size: larger;
 }
+body{
+    background-color: #D0C7F3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #A15F9C;
+}
+nav .column ul li {
+    display: inline-flex;
+    list-style: none;
+    /* justify-content: space-between; */
+    text-transform: uppercase;
+    
+}
+nav .column ul li a {
+    color:  rgba(240, 245, 240, 0.945);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.content{
+    display: flex;
+}
+.sum{
+    padding: 20px;
+    background-color:#DD906B;
+    font-family: sans-serif;
+}
+h1{
+    text-decoration: underline;
+    text-align: end;
+}
