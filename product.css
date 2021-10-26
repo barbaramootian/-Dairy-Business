@@ -5,6 +5,7 @@ form{
 }
 body{
     background-color: #D0C7F3;
+
 }
 nav{
     display: flex;
@@ -25,6 +26,8 @@ nav .column ul li a {
 }
 .content{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .sum{
     padding: 20px;
