@@ -33,11 +33,10 @@
                     <label for="Shed">Product in shed D:</label>
                         <input type="text" id="shedD"><br>
                     <label for="litre">Amount of milk per litre</label>
-                         <input list="price" id="litre" name="litre"/>
-                    <datalist id="price">
-                        <option value="45">
-                        <option value="49.60">
-                    </datalist>
+                         <select id="amount">
+                            <option value="45">45</option>
+                            <option value="49">49</option>
+                            </select>
                     <input type="submit" value="Find Total">
                 </fieldset>
            </form>
@@ -45,7 +44,8 @@
                 <div class="sum">
                     <h1>Calculations for the farm</h1>
                     <h2 id="output"></h2>
-                    <h3 id="totalMoney"></h3>  
+                    <h3 id="totalMoney"></h3> 
+                     <h4 id="dailyAmount"></h4>
                     <h4 id="monthlyAmount"></h4>
                     <h5 id="yearAmount"></h5>
                 </div>
